@@ -1,0 +1,44 @@
+  
+  
+  
+  if( 0.852 < dec <= 0.862){
+    board.push("w");
+  }
+  
+  if( 0.862 < dec <= 0.876){
+    board.push("v");
+  }
+    
+  if( 0.876 < dec <= 0.888){
+    board.push("h");
+  }
+  
+  if( 0.888 < dec <= 0.9){
+    board.push("y");
+  }
+    
+  if( 0.9 < dec <= 0.92){
+    board.push("l");
+  }
+  
+  if( 0.92 < dec <= 0.94){
+    board.push("k");
+  }
+    
+  if( 0.94 < dec <= 0.955){
+    board.push("j");
+  }
+  
+  if( 0.955 < dec <= 0.97){
+    board.push("x");
+  }
+    
+  if( 0.97 < dec <= 0.985){
+    board.push("q");
+  }
+  
+  if( 0.985 < dec <= 1.0){
+    board.push("z");
+  }
+  
+}
