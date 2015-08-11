@@ -1,99 +1,97 @@
-    function createBoard() {
+  function createBoard() {
   
   var board = [];
-  //var dec = Math.random();
-  
-  
+      
   for(var i = 0; i < 13; i++){
-    
+
     board[i] = [];
-    //console.log(board);
-    //var dec = Math.random();
-  
+    
     for(var j = 0; j < 8; j++){
       
       var dec = Math.random();
       console.log(dec);
-      if(0 <= dec < 0.11333){
-        board[i][j] = "a";
+  
+      if(0 < dec <= 0.11333){
+        board[i].push("a");
       }
-      if(0.11333 <= dec < 0.22667){
-        board[i][j] = "e";
+      else if(0.11333 < dec <= 0.22667){
+        board[i].push("e");
       }
-      if(0.22667 <= dec < 0.34){
-        board[i][j] = "o";
+      else if(0.22667 < dec <= 0.34){
+        board[i].push("o");
       }
-      if(0.34 <= dec < 0.40667){
-        board[i][j] = "r";
+      else if(0.34 < dec <= 0.40667){
+        board[i].push("r");
       }
-      if(0.40667 <= dec < 0.47333){
-        board[i][j] = "s";
+      else if(0.40667 < dec <= 0.47333){
+        board[i].push("s");
       }
-      if(0.47333 <= dec < 0.54){
-        board[i][j] = "t";
+      else if(0.47333 < dec <= 0.54){
+        board[i].push("t");
       }
-      if(0.54 <= dec < 0.62){
-        board[i][j] = "i";
+      else if(0.54 < dec <= 0.62){
+        board[i].push("i");
       }
-      if(0.62 <= dec < 0.6222){
-        board[i][j] = "b";
+      else if(0.62 < dec <= 0.6222){
+        board[i].push("b");
       }
-      if(0.6222 <= dec < 0.6244){
-        board[i][j] = "c";
+      else if(0.6222 < dec <= 0.6244){
+        board[i].push("c");
       }
-      if(0.6244 <= dec < 0.6266){
-        board[i][j] = "d";
+      else if(0.6244 < dec <= 0.6266){
+        board[i].push("d");
       }
-      if(0.6266 <= dec < 0.6288){
-        board[i][j] = "m";
+      else if(0.6266 < dec <= 0.6288){
+        board[i].push("m");
       }
-      if(0.6288 <= dec < 0.63){
-        board[i][j] = "p";
+      else if(0.6288 < dec <= 0.63){
+        board[i].push("p");
       }
-      if(0.63 <= dec < 0.72){
-        board[i][j] = "u";
+      else if(0.63 < dec <= 0.72){
+        board[i].push("u");
       }
-      if(0.72 <= dec < 0.78){
-        board[i][j] = "g";
+      else if(0.72 < dec <= 0.78){
+        board[i].push("g");
       }
-      if(0.78 <= dec < 0.84){
-        board[i][j] = "n";
+      else if(0.78 < dec <= 0.84){
+        board[i].push("n");
       }
-      if(0.84 <= dec < 0.852){
-        board[i][j] = "f";
+      else if(0.84 < dec <= 0.852){
+        board[i].push("f");
       }
-      if(0.852 <= dec < 0.862){
-        board[i][j] = "w";
+      else if( 0.852 < dec <= 0.862){
+        board[i].push("w");
       }
-      if(0.862 <= dec < 0.876){
-        board[i][j] = "v";
+      else if( 0.862 < dec <= 0.876){
+        board[i].push("v");
       }
-      if(0.876 <= dec < 0.888){
-        board[i][j] = "h";
+      else if( 0.876 < dec <= 0.888){
+        board[i].push("h");
       }
-      if(0.888 <= dec < 0.9){
-        board[i][j] = "y";
+      else if( 0.888 < dec <= 0.9){
+        board[i].push("y");
       }
-      if(0.9 <= dec < 0.92){
-        board[i][j] = "l";
+      else if( 0.9 < dec <= 0.92){
+        board[i].push("l");
       }
-      if(0.92 <= dec < 0.94){
-        board[i][j] = "k";
+      else if( 0.92 < dec <= 0.94){
+        board[i].push("k");
       }
-      if(0.94 <= dec < 0.955){
-        board[i][j] = "j";
+      else if( 0.94 < dec <= 0.955){
+        board[i].push("j");
       }
-      if(0.955 <= dec < 0.97){
-        board[i][j] = "x";
+      else if( 0.955 < dec <= 0.97){
+        board[i].push("x");
       }
-      if(0.97 <= dec < 0.985){
-        board[i][j] = "q";
+      else if( 0.97 < dec <= 0.985){
+        board[i].push("q");
       }
-      if(0.985 <= dec < 1){
-        board[i][j] = "z";
+      else if( 0.985 < dec <= 1.0){
+        board[i].push("z");
       }
     }
   }
-    console.log(board);
+  
+  console.log(board);
 }
 createBoard();
