@@ -1,44 +1,93 @@
   
+  function Array() {
   
+  var board = [];
   
-  if( 0.852 < dec <= 0.862){
-    board.push("w");
-  }
+  var dec = Math.random();
   
-  if( 0.862 < dec <= 0.876){
-    board.push("v");
-  }
-    
-  if( 0.876 < dec <= 0.888){
-    board.push("h");
-  }
+  for(var i = 0; i < 8; i++){
   
-  if( 0.888 < dec <= 0.9){
-    board.push("y");
-  }
-    
-  if( 0.9 < dec <= 0.92){
-    board.push("l");
-  }
+    for(var j = 0; j < 13; j++){
   
-  if( 0.92 < dec <= 0.94){
-    board.push("k");
-  }
-    
-  if( 0.94 < dec <= 0.955){
-    board.push("j");
-  }
-  
-  if( 0.955 < dec <= 0.97){
-    board.push("x");
-  }
-    
-  if( 0.97 < dec <= 0.985){
-    board.push("q");
-  }
-  
-  if( 0.985 < dec <= 1.0){
+      if(0 < dec <= 0.11333){
+        board.push("a");
+      }
+      if(0.11333 < dec <= 0.22667){
+        board.push("e");
+      }
+      if(0.22667 < dec <= 0.34){
+        board.push("o");
+      }
+      if(0.34 < dec <= 0.40667){
+        board.push("r");
+      }
+      if(0.40667 < dec <= 0.47333){
+        board.push("s");
+      }
+      if(0.47333 < dec <= 0.54){
+        board.push("t");
+      }
+      if(0.54 < dec <= 0.62){
+        board.push("i");
+      }
+      if(0.62 < dec <= 0.6222){
+        board.push("b");
+      }
+      if(0.6222 < dec <= 0.6244){
+        board.push("c");
+      }
+      if(0.6244 < dec <= 0.6266){
+        board.push("d");
+      }
+      if(0.6266 < dec <= 0.6288){
+        board.push("m");
+      }
+      if(0.6288 < dec <= 0.63){
+        board.push("p");
+      }
+      if(0.63 < dec <= 0.72){
+        board.push("u");
+            }
+      if(0.72 < dec <= 0.78){
+        board.push("g");
+      }
+      if(0.78 < dec <= 0.84){
+        board.push("n");
+      }
+      if(0.84 < dec <= 0.852){
+        board.push("f");
+      }
+      if( 0.852 < dec <= 0.862){
+        board.push("w");
+      }
+      if( 0.862 < dec <= 0.876){
+        board.push("v");
+      }
+      if( 0.876 < dec <= 0.888){
+        board.push("h");
+      }
+      if( 0.888 < dec <= 0.9){
+        board.push("y");
+      }
+      if( 0.9 < dec <= 0.92){
+        board.push("l");
+      }
+      if( 0.92 < dec <= 0.94){
+        board.push("k");
+      }
+      if( 0.94 < dec <= 0.955){
+        board.push("j");
+      }
+      if( 0.955 < dec <= 0.97){
+        board.push("x");
+      }
+      if( 0.97 < dec <= 0.985){
+        board.push("q");
+      }
+      if( 0.985 < dec <= 1.0){
     board.push("z");
+      } 
+    }
   }
   
 }
