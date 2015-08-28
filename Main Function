@@ -1,3 +1,5 @@
+var prefix = require (./prefix);
+
 var Boggle = function () {
 
   function createBoard() {
