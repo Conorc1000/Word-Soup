@@ -51948,3 +51948,5 @@ var prefix = [
 "ZYMURGY",
 "ZYZZYVA",
 ]
+
+module.exports= prefix;
